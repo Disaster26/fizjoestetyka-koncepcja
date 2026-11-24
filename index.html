@@ -1,0 +1,375 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex, nofollow" data-podglad>
+<title>Fizjoterapia estetyczna i masaże w Krakowie | Fizjoestetyka Natalia Murzyn</title>
+<meta name="description" content="Gabinet fizjoterapii estetycznej w Krakowie, ul. Kąpielowa 73a. Masaże, modelowanie sylwetki, drenaż limfatyczny, zabiegi na twarz i ciało. Natalia Murzyn, fizjoterapeutka. Rezerwacja online.">
+<link rel="icon" type="image/svg+xml" href="img/logo.svg">
+<link rel="preload" href="fonts/lora-rdzen.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/manrope-rdzen.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" as="image" href="img/hero-1024.webp" imagesrcset="img/hero-640.webp 640w, img/hero-1024.webp 1024w, img/hero-1600.webp 1600w, img/hero-2048.webp 2048w" imagesizes="(max-width:767px) 330vw, 100vw" fetchpriority="high">
+<style>
+@font-face{font-family:"Lora";font-style:normal;font-weight:400 700;font-display:swap;src:url(fonts/lora-rdzen.woff2) format("woff2");unicode-range:U+0020-007E,U+00A0,U+00A9,U+00AB,U+00B0,U+00B7,U+00BB,U+00D3,U+00D7,U+00F3,U+2013-2014,U+2018-2019,U+201C-201E,U+2022,U+2026}
+@font-face{font-family:"Lora";font-style:normal;font-weight:400 700;font-display:swap;src:url(fonts/lora-pl.woff2) format("woff2");unicode-range:U+0104-0107,U+0118-0119,U+0141-0144,U+015A-015B,U+0179-017C}
+@font-face{font-family:"Manrope";font-style:normal;font-weight:400 800;font-display:swap;src:url(fonts/manrope-rdzen.woff2) format("woff2");unicode-range:U+0020-007E,U+00A0,U+00A9,U+00AB,U+00B0,U+00B7,U+00BB,U+00D3,U+00D7,U+00F3,U+2013-2014,U+2018-2019,U+201C-201E,U+2022,U+2026,U+20AC}
+@font-face{font-family:"Manrope";font-style:normal;font-weight:400 800;font-display:swap;src:url(fonts/manrope-pl.woff2) format("woff2");unicode-range:U+0104-0107,U+0118-0119,U+0141-0144,U+015A-015B,U+0179-017C}
+:root{--zl:#b28d56;--zl2:#e4c391;--zlc:#8a6a3b;--ink:#221c18;--tx:#2b2724;--sz:#f3f4f6;--li:#e3e5e8;--mut:#5f5a55}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{font-family:Manrope,system-ui,sans-serif;color:var(--tx);background:#fff;font-size:17px;line-height:1.65;overflow-x:hidden}
+img{display:block;max-width:100%;height:auto}
+a{color:inherit}
+h1,h2,h3{font-family:Lora,Georgia,serif;font-weight:500;line-height:1.18;color:var(--ink)}
+h2{font-size:clamp(30px,3.6vw,48px);letter-spacing:-.01em}
+h3{font-size:24px}
+.w{width:min(1240px,100% - 40px);margin-inline:auto}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:52px;padding:0 26px;border-radius:6px;font-weight:700;font-size:16px;text-decoration:none;transition:background .2s,color .2s,border-color .2s}
+.btn-z{background:linear-gradient(135deg,var(--zl),#c9a56d);color:#fff;box-shadow:0 8px 24px rgba(178,141,86,.35)}
+.btn-z:hover{background:var(--zlc)}
+.btn-o{border:1.5px solid rgba(255,255,255,.7);color:#fff}
+.btn-o:hover{background:#fff;color:var(--ink)}
+.btn svg{width:18px;height:18px}
+/* naglowek */
+.top{position:absolute;inset:0 0 auto;z-index:20}
+.top .w{display:flex;align-items:center;justify-content:space-between;height:96px}
+.logo{display:block;width:72px;height:72px}
+.logo img{width:72px;height:72px}
+nav ul{display:flex;gap:34px;list-style:none;align-items:center}
+nav a{color:#fff;text-decoration:none;font-weight:600;font-size:15.5px}
+nav a:hover{color:var(--zl2)}
+nav .btn{min-height:44px;padding:0 20px;font-size:15px}
+.burger{display:none;width:48px;height:48px;border:0;background:none;color:#fff;cursor:pointer}
+.burger svg{width:28px;height:28px}
+/* pierwszy ekran */
+.hero-tlo{background:var(--ink)}
+.hero{position:relative;max-width:2048px;margin:0 auto;min-height:clamp(600px,100svh,1000px);display:flex;align-items:center;overflow:hidden;color:#fff}
+.hero picture,.hero picture img{position:absolute;inset:0;width:100%;height:100%}
+.hero picture img{object-fit:cover;object-position:60% 50%}
+.hero::before{content:"";position:absolute;inset:0;z-index:1;background:linear-gradient(90deg,rgba(26,20,16,.86) 0%,rgba(26,20,16,.66) 42%,rgba(26,20,16,.12) 78%,rgba(26,20,16,0) 100%)}
+.krag{position:absolute;z-index:-1;left:46%;top:50%;width:880px;aspect-ratio:1;transform:translate(-50%,-50%);pointer-events:none;opacity:.8}
+.hero::after{content:"";position:absolute;inset:0 0 auto;height:170px;z-index:1;background:linear-gradient(rgba(26,20,16,.6),rgba(26,20,16,0))}
+.hero .w{position:relative;z-index:3;padding:130px 0 70px}
+.hero-txt{max-width:640px;position:relative;z-index:0}
+.hero h1{color:#fff;font-size:clamp(36px,4.6vw,64px);margin-bottom:22px}
+.hero p{font-size:clamp(17px,1.35vw,19px);color:rgba(255,255,255,.9);max-width:560px;margin-bottom:34px}
+.hero .cta{display:flex;flex-wrap:wrap;gap:14px}
+.hero .adr{margin-top:30px;font-size:15px;color:rgba(255,255,255,.78)}
+@media (min-width:2049px){.hero picture img{-webkit-mask-image:linear-gradient(90deg,transparent,#000 10%,#000 90%,transparent);mask-image:linear-gradient(90deg,transparent,#000 10%,#000 90%,transparent)}}
+/* sekcje */
+section{padding:clamp(70px,9vw,120px) 0}
+.naglowek{max-width:720px;margin-bottom:46px}
+.naglowek p{color:var(--mut);margin-top:14px;font-size:18px}
+.luk{display:block;width:120px;height:30px;color:var(--zl);margin-bottom:18px}
+/* zabiegi */
+.karuzela{position:relative}
+.tasma{display:flex;gap:24px;overflow-x:auto;scroll-snap-type:x mandatory;padding:6px 2px 22px;scrollbar-width:none;cursor:grab;-webkit-overflow-scrolling:touch}
+.tasma::-webkit-scrollbar{display:none}
+.tasma.ciag{cursor:grabbing;scroll-snap-type:none}
+.zab{flex:0 0 min(360px,82vw);scroll-snap-align:start;background:#fff;border:1px solid var(--li);border-radius:200px 200px 10px 10px;overflow:hidden;display:flex;flex-direction:column;user-select:none}
+.zab .fot{margin:12px 12px 0;border-radius:190px 190px 6px 6px;overflow:hidden;aspect-ratio:4/3.4;position:relative}
+.zab .fot img{width:100%;height:100%;object-fit:cover;pointer-events:none}
+.zab .fot::after{content:"";position:absolute;inset:8px;border:1.5px solid rgba(228,195,145,.9);border-radius:182px 182px 3px 3px;pointer-events:none}
+.zab .tr{padding:24px 26px 28px;display:flex;flex-direction:column;flex:1}
+.zab h3{margin-bottom:10px}
+.zab p{color:var(--mut);font-size:15.5px;margin-bottom:14px}
+.zab ul{list-style:none;font-size:15px;margin-bottom:18px}
+.zab li{padding:7px 0;border-top:1px solid var(--li)}
+.zab .od{margin-top:auto;display:flex;align-items:baseline;justify-content:space-between;gap:10px}
+.zab .od b{font-family:Lora,serif;font-size:22px;font-weight:600;color:var(--zlc)}
+.zab .od a{font-weight:700;font-size:15px;color:var(--ink);text-decoration:none;border-bottom:1.5px solid var(--zl)}
+.strz{display:flex;gap:10px;justify-content:flex-end;margin-top:6px}
+.strz button{width:48px;height:48px;border-radius:50%;border:1.5px solid var(--zl);background:#fff;color:var(--zlc);cursor:pointer;display:grid;place-items:center}
+.strz button:hover{background:var(--zl);color:#fff}
+.strz svg{width:20px;height:20px}
+/* o mnie */
+.omnie{background:var(--sz)}
+.omnie .w{display:grid;grid-template-columns:minmax(0,440px) 1fr;gap:clamp(40px,7vw,110px);align-items:center}
+.port{position:relative;width:min(400px,100%);aspect-ratio:1;margin-inline:auto}
+.port img{border-radius:50%;width:88%;height:88%;object-fit:cover;object-position:50% 20%;position:absolute;left:6%;top:6%;background:#fff}
+.port svg{position:absolute;inset:0;width:100%;height:100%}
+.omnie h2{margin-bottom:22px}
+.omnie p{margin-bottom:16px;max-width:600px}
+.fakty{display:grid;grid-template-columns:repeat(3,auto);gap:12px 34px;margin-top:28px;padding-top:24px;border-top:1px solid #d5d8dc;justify-content:start}
+.fakty b{display:block;font-family:Lora,serif;font-size:20px;font-weight:600;color:var(--ink)}
+.fakty span{font-size:14px;color:var(--mut)}
+/* cennik */
+.cennik{background:var(--ink);color:#e9e5e1;position:relative;overflow:hidden}
+.cennik h2{color:#fff}
+.cennik .naglowek p{color:#b9b2ab}
+.cennik .krag2{position:absolute;right:-220px;top:-220px;width:620px;height:620px;opacity:.35;pointer-events:none}
+.ceny{display:grid;grid-template-columns:repeat(auto-fit,minmax(340px,1fr));gap:20px 56px;position:relative}
+.kat h3{color:var(--zl2);font-size:22px;padding-bottom:12px;border-bottom:1px solid rgba(228,195,145,.35);margin:18px 0 6px}
+.poz{display:grid;grid-template-columns:1fr auto;gap:4px 18px;padding:12px 0;border-bottom:1px solid rgba(255,255,255,.08)}
+.poz span{font-size:15.5px;color:#f1ede9}
+.poz small{grid-column:1;font-size:13.5px;color:#a49c94}
+.poz .c{grid-row:1/3;grid-column:2;text-align:right;font-weight:700;color:#fff;white-space:nowrap}
+.poz .c s{display:block;font-weight:500;font-size:13px;color:#8f877f}
+.poz .c.pr{color:var(--zl2)}
+.uw{margin-top:34px;font-size:14px;color:#a49c94}
+/* voucher */
+.vou .w{display:grid;grid-template-columns:1fr 1fr;gap:clamp(36px,6vw,90px);align-items:center}
+.vou .ob{position:relative;max-width:540px}
+.vou .ob img{border-radius:300px 300px 10px 10px;width:100%;aspect-ratio:1;object-fit:cover}
+.vou h2{margin-bottom:18px}
+.vou p{margin-bottom:28px;color:var(--mut);max-width:520px}
+/* kontakt */
+.kontakt{background:var(--sz)}
+.kontakt .w{display:grid;grid-template-columns:1fr 1.1fr;gap:clamp(36px,6vw,90px)}
+.dane h2{margin-bottom:26px}
+.wiersz{padding:16px 0;border-top:1px solid #d5d8dc}
+.wiersz b{display:block;font-size:13.5px;color:var(--mut);font-weight:600;margin-bottom:2px}
+.wiersz a{text-decoration:none;font-weight:700;font-size:18px}
+.mapa{margin-top:22px;border-radius:10px;overflow:hidden;aspect-ratio:16/9;background:#e3e5e8}
+.mapa iframe{width:100%;height:100%;border:0}
+form{background:#fff;border-radius:12px;padding:clamp(24px,4vw,44px);border:1px solid var(--li)}
+form h3{margin-bottom:8px}
+form>p{color:var(--mut);font-size:15.5px;margin-bottom:22px}
+label{display:block;font-size:14px;font-weight:600;margin:14px 0 6px}
+input,select,textarea{width:100%;font:inherit;font-size:16px;padding:13px 14px;border:1.5px solid #cfd3d8;border-radius:6px;background:#fff;color:var(--tx)}
+input:focus,select:focus,textarea:focus{outline:none;border-color:var(--zl)}
+textarea{min-height:110px;resize:vertical}
+.zg{display:flex;gap:10px;align-items:flex-start;font-weight:500;font-size:13.5px;color:var(--mut);margin:16px 0 20px}
+.zg input{width:20px;height:20px;flex:0 0 20px;margin-top:2px;accent-color:var(--zl)}
+form .btn{width:100%;border:0;cursor:pointer}
+.ok{display:none;margin-top:14px;font-weight:700;color:var(--zlc)}
+/* stopka */
+footer{background:var(--ink);color:#c9c2bb;padding:64px 0 30px;font-size:15px}
+footer .w{display:grid;grid-template-columns:1.3fr 1fr 1fr 1fr;gap:30px}
+footer img{width:84px;height:84px;margin-bottom:14px}
+footer h4{color:var(--zl2);font-family:Lora,serif;font-weight:500;font-size:18px;margin-bottom:12px}
+footer ul{list-style:none}
+footer li{padding:3px 0}
+footer a{text-decoration:none}
+footer a:hover{color:var(--zl2)}
+.dol{grid-column:1/-1;display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap;margin-top:28px;padding-top:22px;border-top:1px solid rgba(255,255,255,.1);font-size:14px}
+.wylinka-badge{display:inline-flex;align-items:center;gap:.4em;color:inherit;text-decoration:none;font-size:.875em;line-height:1;opacity:.85}
+.wylinka-badge:hover,.wylinka-badge:focus-visible{opacity:1}
+.wylinka-badge:focus-visible{outline:2px solid currentColor;outline-offset:3px;border-radius:2px}
+.wylinka-badge svg{width:18px;height:18px;flex:none;overflow:visible}
+.wylinka-badge b{font-weight:600}
+.wylinka-badge .wy-old{opacity:.45;transform-origin:40px 30px;transition:transform .32s cubic-bezier(.3,.7,.4,1),opacity .32s ease-out}
+.wylinka-badge .wy-pod{opacity:0;transition:opacity .2s ease-out .08s}
+.wylinka-badge:hover .wy-old,.wylinka-badge:focus-visible .wy-old{transform:translate(9px,7px) rotate(9deg);opacity:0}
+.wylinka-badge:hover .wy-pod,.wylinka-badge:focus-visible .wy-pod{opacity:1}
+@media (prefers-reduced-motion:reduce){.wylinka-badge .wy-old,.wylinka-badge .wy-pod{transition:none}.wylinka-badge:hover .wy-old,.wylinka-badge:focus-visible .wy-old{transform:none;opacity:.45}.wylinka-badge:hover .wy-pod,.wylinka-badge:focus-visible .wy-pod{opacity:0}}
+/* telefon */
+@media (max-width:980px){
+ nav ul{display:none;position:absolute;top:84px;left:16px;right:16px;flex-direction:column;align-items:stretch;gap:0;background:#fff;border-radius:10px;padding:10px 20px 20px;box-shadow:0 18px 50px rgba(0,0,0,.25)}
+ nav.otw ul{display:flex}
+ nav ul a{color:var(--ink);display:block;padding:13px 0;border-bottom:1px solid var(--li)}
+ nav ul li:last-child a{border:0;margin-top:12px;color:#fff;display:flex}
+ .burger{display:block}
+ .omnie .w,.vou .w,.kontakt .w{grid-template-columns:1fr}
+ .vou .ob{order:2}
+ footer .w{grid-template-columns:1fr 1fr}
+ footer .w>div:first-child{grid-column:1/-1}
+}
+@media (max-width:767px){
+ body{font-size:16px}
+ .top .w{height:78px}
+ .logo,.logo img{width:58px;height:58px}
+ .hero{min-height:100svh;align-items:flex-end}
+ .hero picture img{object-position:64% 50%}
+ .hero::before{background:linear-gradient(0deg,rgba(26,20,16,.92) 0%,rgba(26,20,16,.78) 48%,rgba(26,20,16,.35) 78%,rgba(26,20,16,.25) 100%)}
+ .krag,.krag2{display:none}
+ .hero .w{padding:100px 0 34px}
+ .hero h1{font-size:clamp(31px,8.6vw,40px);margin-bottom:14px}
+ .hero p{margin-bottom:24px;font-size:16px;line-height:1.55}
+ .hero .cta{flex-direction:column;gap:10px}
+ .hero .btn{width:100%}
+ .hero .adr{margin-top:16px;font-size:14px}
+ .fakty{grid-template-columns:1fr 1fr}
+ .ceny{grid-template-columns:1fr}
+}
+@media (max-width:767px) and (max-height:700px){
+ .hero .w{padding:88px 0 24px}
+ .hero h1{font-size:29px;margin-bottom:10px}
+ .hero p{font-size:15px;margin-bottom:24px}
+ .hero .btn{min-height:48px}
+ .hero .adr{display:none}
+}
+</style>
+</head>
+<body>
+<header class="top">
+ <div class="w">
+  <a class="logo" href="#" aria-label="Fizjoestetyka Natalia Murzyn, strona główna"><img src="img/logo.svg" width="72" height="72" alt="Fizjoestetyka Natalia Murzyn"></a>
+  <nav id="nav">
+   <button class="burger" type="button" aria-label="Menu" aria-expanded="false"><svg viewBox="0 0 28 28" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 8h20M4 14h20M4 20h14"/></svg></button>
+   <ul>
+    <li><a href="#zabiegi">Zabiegi</a></li>
+    <li><a href="#cennik">Cennik</a></li>
+    <li><a href="#o-mnie">O mnie</a></li>
+    <li><a href="#voucher">Voucher</a></li>
+    <li><a href="#kontakt">Kontakt</a></li>
+    <li><a class="btn btn-z" href="https://booksy.com/pl-pl/213025_fizjoestetyka-natalia-murzyn_fizjoterapia_8820_krakow" target="_blank" rel="noopener">Zarezerwuj termin</a></li>
+   </ul>
+  </nav>
+ </div>
+</header>
+
+<div class="hero-tlo">
+ <section class="hero" style="padding:0">
+  <picture><img src="img/hero-1024.webp" srcset="img/hero-640.webp 640w, img/hero-1024.webp 1024w, img/hero-1600.webp 1600w, img/hero-2048.webp 2048w" sizes="(max-width:767px) 330vw, 100vw" width="2048" height="1080" alt="Gabinet Fizjoestetyka: łóżko do masażu z ręcznikami i świecą" fetchpriority="high"></picture>
+
+  <div class="w">
+   <div class="hero-txt">
+<svg class="krag" viewBox="0 0 200 200" aria-hidden="true"><defs><linearGradient id="gz" x1="0" y1="1" x2="1" y2="0"><stop offset="0" stop-color="#b28d56"/><stop offset="1" stop-color="#e4c391"/></linearGradient></defs><circle cx="100" cy="100" r="98" fill="none" stroke="url(#gz)" stroke-width=".55"/><circle cx="100" cy="100" r="92" fill="none" stroke="url(#gz)" stroke-width=".18" stroke-dasharray="1 3"/></svg>
+    <h1>Fizjoterapia estetyczna i masaże w Krakowie</h1>
+    <p>Nazywam się Natalia Murzyn, jestem fizjoterapeutką. Łączę pracę rąk z nowoczesną technologią, żeby ciało poczuło się lepiej jako całość: masaże, modelowanie sylwetki, drenaż limfatyczny, zabiegi na twarz i ciało.</p>
+    <div class="cta">
+     <a class="btn btn-z" href="https://booksy.com/pl-pl/213025_fizjoestetyka-natalia-murzyn_fizjoterapia_8820_krakow" target="_blank" rel="noopener">Zarezerwuj termin online</a>
+     <a class="btn btn-o" href="tel:+48793888686"><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M6.2 2.5 8 6.4 6.4 8a10 10 0 0 0 5.6 5.6l1.6-1.6 3.9 1.8-.6 3a1.5 1.5 0 0 1-1.6 1.2A15 15 0 0 1 1.9 4.6a1.5 1.5 0 0 1 1.2-1.6z"/></svg>793 888 686</a>
+    </div>
+    <p class="adr">ul. Kąpielowa 73a, Kraków · poniedziałek - sobota</p>
+   </div>
+  </div>
+ </section>
+</div>
+
+<section id="zabiegi">
+ <div class="w">
+  <div class="naglowek">
+   <svg class="luk" viewBox="0 -2 120 32" aria-hidden="true"><path d="M4 28A70 70 0 0 1 116 28" fill="none" stroke="currentColor" stroke-width="1.5"/><circle cx="60" cy="28" r="2.4" fill="currentColor"/></svg>
+   <h2>Zabiegi</h2>
+   <p>Pięć grup zabiegów, jeden cel: dobre samopoczucie we własnym ciele. Każdy zabieg dobieram do Twoich potrzeb.</p>
+  </div>
+  <div class="karuzela">
+   <div class="tasma" id="tasma">
+    <article class="zab"><div class="fot"><img src="img/masaz-600.webp" srcset="img/masaz-400.webp 400w, img/masaz-600.webp 600w" sizes="(max-width:767px) 76vw, 340px" width="600" height="448" alt="Masaż relaksacyjny pleców" loading="lazy" draggable="false"></div><div class="tr"><h3>Masaż &amp; SPA</h3><p>Przywraca harmonię ciała i umysłu, zmniejsza stres, napięcie i dolegliwości bólowe.</p><ul><li>Masaż Lomi Lomi</li><li>Masaż klasyczny i relaksacyjny</li><li>Gorące kamienie, stemple ziołowe, świeca</li></ul><div class="od"><b>od 130 zł</b><a href="#cennik">Cennik</a></div></div></article>
+    <article class="zab"><div class="fot"><img src="img/modelowanie-600.webp" srcset="img/modelowanie-400.webp 400w, img/modelowanie-600.webp 600w" sizes="(max-width:767px) 76vw, 340px" width="600" height="410" alt="Zabieg modelowania sylwetki głowicą" loading="lazy" draggable="false"></div><div class="tr"><h3>Modelowanie sylwetki</h3><p>Nieinwazyjne zabiegi, które wygładzają skórę i pomagają zredukować miejscową tkankę tłuszczową.</p><ul><li>Fala radiowa + dermomasaż</li><li>Liposukcja ultradźwiękowa</li><li>Body Wrap z masażem antycellulitowym</li></ul><div class="od"><b>od 99 zł</b><a href="#cennik">Cennik</a></div></div></article>
+    <article class="zab"><div class="fot"><img src="img/drenaz-600.webp" srcset="img/drenaz-400.webp 400w, img/drenaz-600.webp 600w" sizes="(max-width:767px) 76vw, 340px" width="600" height="400" alt="Presoterapia kończyn dolnych" loading="lazy" draggable="false"></div><div class="tr"><h3>Drenaż limfatyczny</h3><p>Pobudza krążenie limfy przy obrzękach, zastojach i po operacjach. Manualnie albo z presoterapią.</p><ul><li>Manualny drenaż kończyn dolnych</li><li>Presoterapia urządzeniem Care Pump</li></ul><div class="od"><b>od 59 zł</b><a href="#cennik">Cennik</a></div></div></article>
+    <article class="zab"><div class="fot"><img src="img/twarz-600.webp" srcset="img/twarz-400.webp 400w, img/twarz-600.webp 600w" sizes="(max-width:767px) 76vw, 340px" width="600" height="400" alt="Thermolifting twarzy" loading="lazy" draggable="false"></div><div class="tr"><h3>Zabiegi na twarz i dekolt</h3><p>Promienna, zdrowa skóra bez igieł i bez rekonwalescencji.</p><ul><li>Thermolifting twarzy, szyi i dekoltu</li><li>Peeling kawitacyjny + mezoterapia bezigłowa</li></ul><div class="od"><b>od 139 zł</b><a href="#cennik">Cennik</a></div></div></article>
+    <article class="zab"><div class="fot"><img src="img/cialo-600.webp" srcset="img/cialo-400.webp 400w, img/cialo-600.webp 600w" sizes="(max-width:767px) 76vw, 340px" width="600" height="400" alt="Masaż aromaterapeutyczny przy świecach" loading="lazy" draggable="false"></div><div class="tr"><h3>Zabiegi na ciało</h3><p>Pielęgnacja połączona z relaksem: peeling, odżywienie skóry i rozgrzewająca sauna IR.</p><ul><li>Peeling + masaż aromaterapeutyczny</li><li>Szczotka bambusowa + Body Wrap z sauną IR</li></ul><div class="od"><b>od 169 zł</b><a href="#cennik">Cennik</a></div></div></article>
+   </div>
+   <div class="strz"><button type="button" data-k="-1" aria-label="Poprzednie"><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12.5 4 6.5 10l6 6"/></svg></button><button type="button" data-k="1" aria-label="Następne"><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M7.5 4l6 6-6 6"/></svg></button></div>
+  </div>
+ </div>
+</section>
+
+<section class="omnie" id="o-mnie">
+ <div class="w">
+  <div class="port">
+   <img src="img/natalia-800.webp" srcset="img/natalia-400.webp 400w, img/natalia-800.webp 800w" sizes="(max-width:767px) 78vw, 360px" width="800" height="800" alt="Natalia Murzyn, fizjoterapeutka" loading="lazy">
+   <svg viewBox="0 0 200 200" aria-hidden="true"><defs><linearGradient id="gz2" x1="0" y1="1" x2="1" y2="0"><stop offset="0" stop-color="#b28d56"/><stop offset="1" stop-color="#e4c391"/></linearGradient></defs><circle cx="100" cy="100" r="98" fill="none" stroke="url(#gz2)" stroke-width="1.2"/></svg>
+  </div>
+  <div>
+   <svg class="luk" viewBox="0 -2 120 32" aria-hidden="true"><path d="M4 28A70 70 0 0 1 116 28" fill="none" stroke="currentColor" stroke-width="1.5"/><circle cx="60" cy="28" r="2.4" fill="currentColor"/></svg>
+   <h2>Dzień dobry, jestem Natalia</h2>
+   <p>Ukończyłam fizjoterapię na Akademii Wychowania Fizycznego w Krakowie, a z zawodem jestem związana od 2014 roku. Fizjoestetyka to mój własny gabinet.</p>
+   <p>Fizjoterapia to dla mnie nie tylko praca, ale i pasja. Podchodzę do niej holistycznie, bo zależy mi na poprawie zdrowia i samopoczucia jako całości. Najbardziej lubię fizjoterapię estetyczną, w której łączę techniki manualne z nowoczesnymi urządzeniami. Zajmuję się też drenażem limfatycznym.</p>
+   <p>Prywatnie lubię gotować i nie odmówię dobrej kawy ani czekolady.</p>
+   <div class="fakty"><div><b>AWF Kraków</b><span>fizjoterapia</span></div><div><b>od 2014</b><span>w zawodzie</span></div><div><b>Booksy</b><span>rezerwacja online</span></div></div>
+  </div>
+ </div>
+</section>
+
+<section class="cennik" id="cennik">
+ <svg class="krag2" viewBox="0 0 200 200" aria-hidden="true"><circle cx="100" cy="100" r="98" fill="none" stroke="#e4c391" stroke-width=".5"/><circle cx="100" cy="100" r="80" fill="none" stroke="#b28d56" stroke-width=".3"/></svg>
+ <div class="w">
+  <div class="naglowek">
+   <svg class="luk" viewBox="0 -2 120 32" aria-hidden="true"><path d="M4 28A70 70 0 0 1 116 28" fill="none" stroke="currentColor" stroke-width="1.5"/><circle cx="60" cy="28" r="2.4" fill="currentColor"/></svg>
+   <h2>Cennik</h2>
+   <p>Ceny zabiegów z czasem trwania. Złotym kolorem oznaczone są aktualne promocje.</p>
+  </div>
+  <div class="ceny">
+   <div class="kat"><h3>Masaż &amp; SPA</h3>
+    <div class="poz"><span>Masaż Lomi Lomi</span><small>90 minut</small><b class="c pr"><s>180 zł</s>144 zł</b></div>
+    <div class="poz"><span>Masaż relaksacyjny</span><small>60 minut</small><b class="c">130 zł</b></div>
+    <div class="poz"><span>Masaż klasyczny</span><small>60 minut</small><b class="c">140 zł</b></div>
+    <div class="poz"><span>Masaż gorącymi kamieniami</span><small>90 minut</small><b class="c">159 zł</b></div>
+    <div class="poz"><span>Masaż stemplami ziołowymi</span><small>45 minut</small><b class="c">159 zł</b></div>
+    <div class="poz"><span>Masaż świecą</span><small>75 minut</small><b class="c">149 zł</b></div>
+   </div>
+   <div class="kat"><h3>Modelowanie sylwetki</h3>
+    <div class="poz"><span>Fala radiowa + liposukcja UD + dermomasaż, uda i łydki</span><small>90 minut</small><b class="c pr"><s>240 zł</s>120 zł</b></div>
+    <div class="poz"><span>Fala radiowa + liposukcja UD + dermomasaż, brzuch i boczki</span><small>75 minut</small><b class="c pr"><s>200 zł</s>100 zł</b></div>
+    <div class="poz"><span>Fala radiowa + dermomasaż, uda i łydki</span><small>90 minut</small><b class="c">199 zł</b></div>
+    <div class="poz"><span>Fala radiowa + dermomasaż, brzuch i boczki</span><small>60 minut</small><b class="c">149 zł</b></div>
+    <div class="poz"><span>Liposukcja ultradźwiękowa</span><small>60 minut</small><b class="c">149 zł</b></div>
+    <div class="poz"><span>Dermomasaż</span><small>60 minut</small><b class="c">99 zł</b></div>
+   </div>
+   <div class="kat"><h3>Drenaż limfatyczny</h3>
+    <div class="poz"><span>Presoterapia kończyn dolnych</span><small>60 minut</small><b class="c pr"><s>119 zł</s>59 zł</b></div>
+    <div class="poz"><span>Manualny drenaż limfatyczny kończyn dolnych</span><small>75 minut</small><b class="c">119 zł</b></div>
+    <h3>Zabiegi na twarz</h3>
+    <div class="poz"><span>Thermolifting twarzy, szyi i dekoltu + pielęgnacja</span><small>75 minut</small><b class="c">139 zł</b></div>
+    <div class="poz"><span>Peeling kawitacyjny + mezoterapia bezigłowa + maska algowa</span><small>90 minut</small><b class="c">139 zł</b></div>
+   </div>
+   <div class="kat"><h3>Zabiegi na ciało</h3>
+    <div class="poz"><span>Dermomasaż + Body Wrap z elektrosauną IR</span><small>90 minut</small><b class="c">179 zł</b></div>
+    <div class="poz"><span>Peeling z masażem aromaterapeutycznym</span><small>90 minut</small><b class="c">169 zł</b></div>
+    <div class="poz"><span>Peeling szczotką bambusową + Body Wrap z sauną IR</span><small>90 minut</small><b class="c">179 zł</b></div>
+   </div>
+  </div>
+  <p class="uw">Rezerwacja terminu online przez Booksy albo telefonicznie: <a href="tel:+48793888686" style="color:#e4c391;font-weight:700;text-decoration:none">793 888 686</a>.</p>
+ </div>
+</section>
+
+<section class="vou" id="voucher">
+ <div class="w">
+  <div class="ob"><img src="img/stemple-600.webp" srcset="img/stemple-400.webp 400w, img/stemple-600.webp 600w" sizes="(max-width:767px) 90vw, 520px" width="600" height="600" alt="Stemple ziołowe i świece przygotowane do masażu" loading="lazy"></div>
+  <div>
+   <svg class="luk" viewBox="0 -2 120 32" aria-hidden="true"><path d="M4 28A70 70 0 0 1 116 28" fill="none" stroke="currentColor" stroke-width="1.5"/><circle cx="60" cy="28" r="2.4" fill="currentColor"/></svg>
+   <h2>Voucher prezentowy</h2>
+   <p>Godzina tylko dla siebie to prezent, który zawsze trafia. Voucher na masaż lub zabieg kupisz wygodnie przez Booksy.</p>
+   <a class="btn btn-z" href="https://booksy.com/pl-pl/213025_fizjoestetyka-natalia-murzyn_fizjoterapia_8820_krakow" target="_blank" rel="noopener">Kup voucher</a>
+  </div>
+ </div>
+</section>
+
+<section class="kontakt" id="kontakt">
+ <div class="w">
+  <div class="dane">
+   <svg class="luk" viewBox="0 -2 120 32" aria-hidden="true"><path d="M4 28A70 70 0 0 1 116 28" fill="none" stroke="currentColor" stroke-width="1.5"/><circle cx="60" cy="28" r="2.4" fill="currentColor"/></svg>
+   <h2>Kontakt i dojazd</h2>
+   <div class="wiersz"><b>Adres gabinetu</b>ul. Kąpielowa 73a, 30-698 Kraków</div>
+   <div class="wiersz"><b>Telefon</b><a href="tel:+48793888686">793 888 686</a></div>
+   <div class="wiersz"><b>E-mail</b><a href="mailto:kontakt@fizjoestetyka.com">kontakt@fizjoestetyka.com</a></div>
+   <div class="wiersz"><b>Godziny otwarcia</b>poniedziałek - piątek 9:30 - 20:00, sobota 9:00 - 20:00</div>
+   <div class="mapa" id="mapa" data-src="https://www.google.com/maps?q=Fizjoestetyka+Natalia+Murzyn,+K%C4%85pielowa+73a,+30-698+Krak%C3%B3w&amp;output=embed"></div>
+  </div>
+  <form id="form" novalidate>
+   <h3>Napisz do mnie</h3>
+   <p>Masz pytanie o zabieg albo przeciwwskazania? Odpiszę najszybciej, jak to możliwe.</p>
+   <label for="f1">Imię</label><input id="f1" name="imie" autocomplete="given-name">
+   <label for="f2">Telefon lub e-mail</label><input id="f2" name="kontakt" autocomplete="tel">
+   <label for="f3">Zabieg</label><select id="f3" name="zabieg"><option>Masaż &amp; SPA</option><option>Modelowanie sylwetki</option><option>Drenaż limfatyczny</option><option>Zabiegi na twarz</option><option>Zabiegi na ciało</option><option>Voucher prezentowy</option></select>
+   <label for="f4">Wiadomość</label><textarea id="f4" name="wiadomosc"></textarea>
+   <label class="zg"><input type="checkbox"> Zgadzam się na przetwarzanie moich danych w celu odpowiedzi na wiadomość.</label>
+   <button class="btn btn-z" type="submit">Wyślij wiadomość</button>
+   <p class="ok" id="ok">Dziękuję! W podglądzie formularz nie wysyła wiadomości.</p>
+  </form>
+ </div>
+</section>
+
+<footer>
+ <div class="w">
+  <div><img src="img/logo.svg" width="84" height="84" alt="Fizjoestetyka" loading="lazy"><p>Gabinet fizjoterapii estetycznej i masażu w Krakowie.</p></div>
+  <div><h4>Zabiegi</h4><ul><li><a href="#zabiegi">Masaż &amp; SPA</a></li><li><a href="#zabiegi">Modelowanie sylwetki</a></li><li><a href="#zabiegi">Drenaż limfatyczny</a></li><li><a href="#zabiegi">Twarz i ciało</a></li></ul></div>
+  <div><h4>Gabinet</h4><ul><li><a href="#o-mnie">O mnie</a></li><li><a href="#cennik">Cennik</a></li><li><a href="#voucher">Voucher</a></li><li><a href="https://www.facebook.com/fizjoestetykakrakow/" target="_blank" rel="noopener">Facebook</a> · <a href="https://www.instagram.com/fizjoestetyka_krakow/" target="_blank" rel="noopener">Instagram</a></li></ul></div>
+  <div><h4>Kontakt</h4><ul><li>ul. Kąpielowa 73a</li><li>30-698 Kraków</li><li><a href="tel:+48793888686">793 888 686</a></li><li><a href="mailto:kontakt@fizjoestetyka.com">kontakt@fizjoestetyka.com</a></li></ul></div>
+  <div class="dol"><span>© 2026 Fizjoestetyka Natalia Murzyn · Regulamin · Polityka prywatności</span><a class="wylinka-badge" href="https://wylinka.pl/?utm_source=fizjoestetyka.com&amp;utm_medium=stopka&amp;utm_campaign=wykonanie" rel="noopener" title="Strona wykonana przez Wylinka"><svg viewBox="0 0 64 64" aria-hidden="true" focusable="false" fill="currentColor"><path d="M9.8 22.8l-1.2-7.9 2.2-3.7 15.5 4.6-.5 1.5-7.2 5.5 4.7 15.6 5-15.6 7 0 4.1 12.7-4.2-.9-2.6 1.8-.8-2.2-5.3 15.6-4.3 0 .4 .2-2.1 2.8-1.3-1.1 1.1-1.4-3.1 .2-.1-1.7 2.2-.1-5.7-16.5-4.8 .6-.8 3.1 0 .5-.3 .5 .8 2.2-1.6 .5-.4-1.3-.8 1.6-1.5-.8 .8-1.6-1.4 .6-.6-1.6 2.3-.8 .2-.4 1.3-4.8 5.9-.8-2.4-6.9zM15.2 13.7l-.1-.4-.4 .8-.1 .8 .1 1 .1 .4 .3 .7 .3-.9 .1-.7 0-.8z"/><path class="wy-pod" d="M37.1 49.8l-4.5-13.3 2.6-1.8 4.2 .9 .9 2.8 3-9.7 0-.5 .1-.8 3.2-8.4 .5-1 .6-1 .9-1.1 1.3-1 1.1-.7 1.4-.5 1.4-.3 .7 0 .9 0 1.2 .3 1.4 .6 .8 .5 .7 .7 .6 .7 .5 .9 .3 .9 .1 .9 0 .8-.2 .9-.5 .9-.5 .6-.7 .5-.7 .3-.1-.1 0-.1 .5-.5 .3-.7 .2-.5 0-.6-.1-.6-.3-.7-.4-.5-.4-.4-.5-.3-.6-.3-.7 0-.7 .1-.6 .1-.5 .4-.5 .5-.3 .5-.2 .7-.1 1.5-1.4 5.1-.8 3.3-.3 .7-.5 .7-6 17.5 1.9 .1-.1 1.7-3.1-.2 1.1 1.4-1.3 1.1-2.1-2.8 .4-.2z"/><path class="wy-old" d="M40.8 50l.4-.2-4.1 0-4.2-12.5 2.5-1.7 4.3 .9 .6 1.9 .6-1.6 0-.3 2.4-7.8 0-.5 .1-.8 3.2-8.4 .4-.8 .6-.9 .9-1.2 .9-.9 1.3-.8 1.4-.6 1.2-.3 1.4-.1 1.3 .1 .6 .2 .8 .3 1.1 .6 .9 .7 .7 .9 .5 .9 .3 .9 .1 1.1-.1 .9-.3 .9-.4 .7-.6 .7-.6 .4-.6 .2-.1-.1 0-.1 .5-.5 .3-.7 .2-.5 0-.5-.1-.6-.2-.6-.3-.5-.4-.5-.5-.3-.6-.3-.7-.1-.6 0-.6 .1-.6 .3-.6 .5-.3 .4-.2 .5-.1 .5-.1 1.5-1.4 5.1-.8 3.3-.3 .7-.5 .7-6 17.5 1.9 .1-.1 1.7-3.1-.2 1.1 1.4-1.3 1.1zM49.6 17.1l.6 1.7-1.5 1.9 .4 .4 1.8-2.1-.7-2.1zM48.1 28.3l.5 1.8-1.7 1.8 .4 .4 1.9-2-.6-2.2zM37.9 41.7l1.7-1.5-.4-.4-1.7 1.4zM42.6 38.7l-1.5 2.8 1.1 2-1.3 2.6 .5 .2 1.5-2.8-1.1-2 1.4-2.5z"/></svg><span>wykonanie: <b>Wylinka</b></span></a></div>
+ </div>
+</footer>
+<script>
+(function(){
+var n=document.getElementById('nav'),b=n.querySelector('.burger');
+b.addEventListener('click',function(){var o=n.classList.toggle('otw');b.setAttribute('aria-expanded',o)});
+n.querySelectorAll('ul a').forEach(function(a){a.addEventListener('click',function(){n.classList.remove('otw')})});
+var t=document.getElementById('tasma');
+document.querySelectorAll('.strz button').forEach(function(x){x.addEventListener('click',function(){var k=t.querySelector('.zab');t.scrollBy({left:(k.offsetWidth+24)*x.dataset.k,behavior:'smooth'})})});
+var d=false,sx=0,sl=0,mv=0;
+t.addEventListener('mousedown',function(e){d=true;mv=0;sx=e.pageX;sl=t.scrollLeft;t.classList.add('ciag')});
+window.addEventListener('mousemove',function(e){if(!d)return;mv=Math.abs(e.pageX-sx);t.scrollLeft=sl-(e.pageX-sx)});
+window.addEventListener('mouseup',function(){if(!d)return;d=false;t.classList.remove('ciag')});
+t.addEventListener('click',function(e){if(mv>6){e.preventDefault();e.stopPropagation()}},true);
+var m=document.getElementById('mapa');
+if('IntersectionObserver' in window){var io=new IntersectionObserver(function(en){if(en[0].isIntersecting){var f=document.createElement('iframe');f.src=m.dataset.src;f.title='Mapa dojazdu do gabinetu';f.loading='lazy';m.appendChild(f);io.disconnect()}},{rootMargin:'300px'});io.observe(m)}
+document.getElementById('form').addEventListener('submit',function(e){e.preventDefault();document.getElementById('ok').style.display='block'});
+})();
+</script>
+</body>
+</html>
